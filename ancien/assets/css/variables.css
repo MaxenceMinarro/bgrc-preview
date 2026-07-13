@@ -1,0 +1,46 @@
+/* ============================================
+   VARIABLES.CSS — Toitures du Gard
+   BTP / Couverture / Gros œuvres — Nîmes (30)
+   ============================================ */
+
+:root {
+  /* === COULEURS PRINCIPALES === */
+  --color-primary: #1d2d3e;        /* Ardoise foncée — couleur dominante */
+  --color-secondary: #e05a1e;      /* Brique / terracotta — accent principal */
+  --color-accent: #f0a820;         /* Or / sable — accent secondaire */
+  --color-bg: #f5f4f1;             /* Fond général (blanc cassé chaud) */
+  --color-bg-alt: #ffffff;         /* Fond alternatif (sections) */
+  --color-text: #1d2d3e;           /* Texte principal */
+  --color-text-light: #6b7280;     /* Texte secondaire */
+  --color-border: #e5e7eb;         /* Bordures */
+
+  /* === TYPOGRAPHIE === */
+  --font-display: 'Oswald', sans-serif;   /* Titres — fort, construction */
+  --font-body: 'DM Sans', sans-serif;     /* Corps de texte */
+
+  /* === TAILLES === */
+  --font-size-hero: clamp(2.8rem, 6vw, 5.5rem);
+  --font-size-h2: clamp(1.8rem, 4vw, 3rem);
+  --font-size-h3: clamp(1.2rem, 2vw, 1.5rem);
+  --font-size-base: 1rem;
+  --font-size-small: 0.875rem;
+
+  /* === ESPACEMENTS === */
+  --spacing-section: clamp(5rem, 10vw, 9rem);
+  --spacing-gap: 2rem;
+  --container-max: 1200px;
+  --container-padding: clamp(1.5rem, 5vw, 3rem);
+
+  /* === EFFETS === */
+  --radius: 10px;
+  --radius-lg: 20px;
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-md: 0 8px 32px rgba(0,0,0,0.10);
+  --shadow-lg: 0 24px 64px rgba(0,0,0,0.14);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* === HERO === */
+  --hero-bg: #1d2d3e;
+  --hero-text: #ffffff;
+  --hero-overlay: rgba(29,45,62,0.75);
+}

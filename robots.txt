@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /succes.html
+Disallow: /pages/mentions-legales.html
+
+Sitemap: https://bgrc.fr/sitemap.xml

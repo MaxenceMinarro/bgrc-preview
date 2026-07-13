@@ -1,0 +1,31 @@
+/* ============================================
+   VARIABLES.CSS — BGR Couverture & Construction
+   Design system : artisanal, chaleureux, Nîmes
+   ============================================ */
+
+:root {
+  /* === PALETTE === */
+  --ink:         #1c1a17;
+  --ink-soft:    #4a4640;
+  --ink-faint:   #8a8378;
+  --paper:       #f6f2eb;
+  --paper-2:     #ece6da;
+  --accent:      oklch(0.68 0.11 42);   /* terracotta ≈ #c97a5a */
+  --accent-soft: oklch(0.92 0.04 60);   /* fond section pourquoi */
+  --accent-hex:  #c97a5a;               /* fallback JS (Leaflet) */
+
+  /* === TYPOGRAPHIE === */
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+
+  /* === LAYOUT === */
+  --container-max: 1240px;
+  --container-pad: clamp(1.5rem, 4vw, 3rem);
+  --section-py:    80px;
+  --section-py-sm: 48px;
+
+  /* === EFFETS === */
+  --radius:     8px;
+  --radius-lg:  16px;
+  --transition: 0.2s ease;
+}

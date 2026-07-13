@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message envoyé — BGR Couverture & Construction</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .succes-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--color-bg);
+      padding: 2rem;
+    }
+    .succes-card {
+      background: #fff;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 4rem 3rem;
+      text-align: center;
+      max-width: 520px;
+      box-shadow: var(--shadow-md);
+    }
+    .succes-icon {
+      width: 72px;
+      height: 72px;
+      background: linear-gradient(135deg, var(--color-secondary), var(--color-accent));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      margin: 0 auto 2rem;
+    }
+    .succes-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: var(--color-text);
+      margin-bottom: 1rem;
+    }
+    .succes-text {
+      color: var(--color-text-light);
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 2.5rem;
+    }
+    .succes-phone {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(224,90,30,0.08);
+      border: 1.5px solid rgba(224,90,30,0.25);
+      border-radius: 4px;
+      padding: 0.6rem 1.2rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--color-secondary);
+      margin-bottom: 2rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar scrolled" role="navigation">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo" style="color: var(--color-primary);">
+        BGR Couverture & Construction
+        <span>Couvreur · Façade · Nîmes</span>
+      </a>
+    </div>
+  </nav>
+
+  <div class="succes-page">
+    <div class="succes-card">
+      <div class="succes-icon">✓</div>
+      <h1 class="succes-title">Message bien reçu !</h1>
+      <p class="succes-text">
+        Merci pour votre demande de devis. Nous vous répondrons dans les <strong>48 heures</strong>
+        avec un devis détaillé et sans engagement.<br><br>
+        Pour toute urgence, vous pouvez nous joindre directement :
+      </p>
+      <a href="tel:+33680588995" class="succes-phone">📞 06 80 58 89 95</a>
+      <br>
+      <a href="index.html" class="btn btn--primary">← Retour à l'accueil</a>
+    </div>
+  </div>
+
+</body>
+</html>
